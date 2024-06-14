@@ -71,8 +71,8 @@ course_config = CourseConfig(course_code = "gswdeod",
                              install_min_time = "1 min",
                              install_max_time = "5 min",
                              remote_files = remote_files,
-                             supported_dbrs = ["13.2.x-scala2.12", "13.2.x-photon-scala2.12", "13.2.x-cpu-ml-scala2.12"],
-                             expected_dbrs = "13.2.x-scala2.12, 13.2.x-photon-scala2.12, 13.2.x-cpu-ml-scala2.12")
+                             supported_dbrs = ["14.2.x-scala2.12", "13.2.x-photon-scala2.12", "13.2.x-cpu-ml-scala2.12"],
+                             expected_dbrs = "14.2.x-scala2.12, 13.2.x-photon-scala2.12, 13.2.x-cpu-ml-scala2.12")
 
 
 lesson_config = LessonConfig(name = None,
